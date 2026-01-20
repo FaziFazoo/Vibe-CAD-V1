@@ -1,4 +1,4 @@
-# Antigravity Vibe CAD (PyCATIA Edition)
+# Vibe CAD (PyCATIA Edition)
 
 ## 1. Objective
 
@@ -232,7 +232,7 @@ Execution layer handles failures.
 
 ---
 
-## 12. Roadmap (Antigravity Edition)
+## 12. Roadmap (  Edition)
 
 Phase 1: Text → Parametric Solids
 Phase 2: Assemblies
@@ -242,21 +242,10 @@ Phase 5: Voice → CAD
 
 ---
 
-## 13. What Makes This "Antigravity"
+## 13. What Makes This " "
 
 * No manual sketching
 * No UI dependency
 * Design by intent, not clicks
 * CAD becomes programmable
 
----
-
-## 14. Next Action
-
-Choose:
-
-1. **Exact HuggingFace model**
-2. **Output format (JSON / YAML)**
-3. **Part vs Assembly first**
-
-Once chosen, we lock the compiler.
