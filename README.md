@@ -1,4 +1,4 @@
-# Antigravity Vibe CAD - Run Instructions
+#   Vibe CAD - Run Instructions
 
 ## Prerequisites
 - Python 3.8+
