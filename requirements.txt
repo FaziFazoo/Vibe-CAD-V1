@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+huggingface_hub
+pycatia
+python-dotenv
+requests
+torch
+transformers
+accelerate

@@ -1,0 +1,44 @@
+{
+  "example_input_prompt": "Create a cylindrical chamber, radius 50 mm, length 200 mm, axis along Z.",
+  "generated_d_file": {
+    "meta": {
+      "cad_system": "CATIA_V5",
+      "units": "mm",
+      "design_mode": "parametric"
+    },
+    "part": {
+      "name": "cylindrical_chamber",
+      "origin": [0, 0, 0],
+      "axis_system": "default"
+    },
+    "reference_geometry": {
+      "planes": ["XY", "YZ", "ZX"],
+      "axes": ["X", "Y", "Z"]
+    },
+    "features": [
+      {
+        "id": "sketch_1",
+        "type": "sketch",
+        "sketch_plane": "XY",
+        "parameters": {
+          "circle": {
+            "center": [0, 0],
+            "radius": 50
+          }
+        }
+      },
+      {
+        "id": "pad_1",
+        "type": "pad",
+        "sketch": "sketch_1",
+        "parameters": {
+          "length": 200,
+          "direction": "Z"
+        }
+      }
+    ],
+    "relations": [],
+    "constraints": [],
+    "update_order": ["sketch_1", "pad_1"]
+  }
+}
